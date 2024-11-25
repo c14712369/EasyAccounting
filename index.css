@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+}
+
+.chart-container {
+    height: 400px;
+}
+
+.list-group-item {
+    transition: transform 0.2s ease;
+    /* 平滑移动效果 */
+}
+
+.dragging {
+    opacity: 0.5;
+    /* 拖曳中的分类透明化 */
+}
+
+.placeholder {
+    height: 50px;
+    /* 与项目高度一致 */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 提供插入位置的可视效果 */
+    border: 2px dashed #ccc;
+    /* 显示占位框 */
+    margin-bottom: 8px;
+}
+
+table td,
+table th {
+    vertical-align: middle;
+    /* 確保內容垂直居中 */
+    text-align: center;
+    /* 確保內容水平居中 */
+}
